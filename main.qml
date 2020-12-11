@@ -13,7 +13,7 @@ ApplicationWindow {
 
     Camera {
         id: camera
-        deviceId: QtMultimedia.availableCameras[1].deviceId
+        deviceId: QtMultimedia.availableCameras[0].deviceId
 
         exposure {
             exposureCompensation: -1.0
